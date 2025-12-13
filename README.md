@@ -1,5 +1,7 @@
 # Manipulador-SOLVER  
 
+Manipulador robótico projetado para a limpeza de painéis solares.  
+
 # Repositório do manipulador SOLVER – Dinâmica de Sistemas Robóticos
 
 Este repositório contém o código e todos os arquivos desenvolvidos para o projeto final da disciplina SEM0590 – Dinâmica de Sistemas Robóticos (EESC-USP).  
