@@ -3,7 +3,7 @@ Códigos da modelagem, dinâmica e simulação do manipulador SOLVER.
 
 # Repositório do manipulador SOLVER – Dinâmica de Sistemas Robóticos
 
-Este repositório contém todos os códigos desenvolvidos para o projeto final da disciplina SEM0590 – Dinâmica de Sistemas Robóticos (EESC-USP).  
+Este repositório contém o código e todos os arquivos desenvolvidos para o projeto final da disciplina SEM0590 – Dinâmica de Sistemas Robóticos (EESC-USP).  
 Aqui estão incluídos os arquivos de modelagem, simulação, geração de trajetórias e análise dinâmica do manipulador.
 
 
