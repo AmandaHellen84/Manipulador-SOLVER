@@ -31,7 +31,7 @@ relatório.pdf
 # Descrição das pastas
 
 - /src – Contém o código utilizado na modelagem, implementação das cinemáticas, simulação na Robotics Toolbox e execução de trajetórias.  
-- /cad – Imagens do projeto mecânico do manipulador.  
+- /cad – Imagens e arquivos do projeto mecânico do manipulador.  
 - /resultados – Gráficos da análise dinâmica (posição, velocidade, aceleração e torque) da cinemática direta, inversa e trajetória de escovação.  
 - /documentação – Relatório final do projeto.
 
