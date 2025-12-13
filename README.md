@@ -31,7 +31,7 @@ trajetória de escovação.jpeg
 
 
 /documentação  
-relatório.pdf  
+Relatório_de_Dinâmica (3).pdf    
 
 
 ---
