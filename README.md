@@ -11,19 +11,16 @@ Aqui estão incluídos os arquivos de modelagem, simulação, geração de traje
 # Estrutura do repositório
 
 /src  
-trajetória_juntas.m  
-simulacao.m  
-solver_urdf.urdf  
+manipulador_dinamica.py
 
 /cad  
 manipulador_cad_1.png  
 manipulador_cad_2.png  
 
 /resultados  
-posicoes.png  
-velocidades.png  
-aceleracoes.png  
-torques.png  
+graficos_cd.png
+graficos_ci.png
+graficos_te.png
 
 /documentação  
 relatório.pdf  
@@ -32,9 +29,9 @@ relatório.pdf
 ---
 # Descrição das pastas
 
-- /src – Contém todos os códigos utilizados na modelagem, implementação das cinemáticas, simulação na Robotics Toolbox e execução de trajetórias.  
+- /src – Contém o código utilizado na modelagem, implementação das cinemáticas, simulação na Robotics Toolbox e execução de trajetórias.  
 - /cad – Imagens do projeto mecânico do manipulador.  
-- /resultados – Gráficos da análise dinâmica (posição, velocidade, aceleração e torque).  
+- /resultados – Gráficos da análise dinâmica (posição, velocidade, aceleração e torque) da cinemática direta, inversa e trajetória de escovação.  
 - /documentação – Relatório final do projeto.
 
 
@@ -42,15 +39,31 @@ relatório.pdf
 # Instruções para executar os códigos
 
 ## Pré-requisitos
-- MATLAB instalado  
-- Robotics Toolbox (Peter Corke) instalada  
+
+- Python instalado  
+- Bibliotecas Robotics Toolbox, Numpy e Matplotlib instaladas
 
 ## Passo a passo
 
 1. Baixe ou clone este repositório
-2. Abra o MATLAB e navegue até a pasta /src: matlabcd caminho/do/repositório/src
-3. Carregue o modelo e execute a simulação principal
+2. Abra o ambiente de Python e execute o código
+3. Escolha no terminal entre cinemática direta, cinemática inversa, trajetória de escovação, limpar ou sair
 
+## Funcionamento do programa
+
+Ao executar o código, o usuário interage com o programa por meio do terminal, podendo selecionar diferentes modos de operação do manipulador robótico. Cada opção aciona uma rotina específica, responsável por calcular, simular e visualizar o comportamento do manipulador conforme descrito a seguir.
+
+- cinemática direta: o usuário define a posição final das três juntas do manipulador. A partir desses valores, o programa calcula a pose do end-effector, gera os gráficos correspondentes e realiza a simulação do movimento  
+
+- cinemática inversa: o usuário informa a posição cartesiana desejada para o end-effector. O programa calcula automaticamente as variáveis articulares necessárias, apresenta os gráficos e executa a simulação do movimento até a posição especificada  
+
+- trajetória de escovação: o programa executa uma trajetória previamente planejada no espaço cartesiano, representativa do movimento de limpeza. São gerados os gráficos das grandezas articulares e a simulação completa do manipulador ao longo da trajetória  
+
+- limpar: ao final de cada simulação, a posição final do manipulador é armazenada como condição inicial para a próxima execução. Essa opção redefine a posição inicial para o valor padrão q = [0° 0° 0], permitindo reiniciar as simulações a partir da configuração inicial  
+
+- sair: encerra o loop de execução, finalizando o programa  
+
+Observação: recomenda-se utilizar a opção sair após cada simulação, pois a execução de simulações de forma concatenada compromete o desempenho gráfico da animação.
 
 ---
 # Integrantes do grupo do projeto
