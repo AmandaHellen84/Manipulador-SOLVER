@@ -14,8 +14,8 @@ Aqui estão incluídos os arquivos de modelagem, simulação, geração de traje
 manipulador_dinamica.py
 
 /cad  
-manipulador_cad_1.png  
-manipulador_cad_2.png  
+cad.png  
+cad1.png  
 
 /resultados  
 graficos_cd.png
