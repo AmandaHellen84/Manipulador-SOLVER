@@ -18,9 +18,10 @@ cad.png
 cad1.png  
 
 /resultados  
-graficos_cd.png
-graficos_ci.png
-graficos_te.png
+cinemática direta até a posição [20° 20° 0.4].jpeg  
+cinemática inversa até a posição [0.4 0.4 -0,4].jpeg  
+trajetória de escovação.jpeg  
+
 
 /documentação  
 relatório.pdf  
