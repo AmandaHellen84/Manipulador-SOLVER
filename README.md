@@ -1,5 +1,4 @@
-# Manipulador-SOLVER
-Códigos da modelagem, dinâmica e simulação do manipulador SOLVER.
+# Manipulador-SOLVER  
 
 # Repositório do manipulador SOLVER – Dinâmica de Sistemas Robóticos
 
