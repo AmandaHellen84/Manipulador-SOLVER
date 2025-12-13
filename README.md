@@ -16,13 +16,13 @@ manipulador_dinamica.py
 /cad  
 cad.png  
 cad1.png  
-cano.SLDPRT
-conector_1.SLDPRT
-efetuador.SLDPRT
-elo.SLDPRT
-eloelo.SLDPRT
-base.SLDPRT
-Mont1.SLDASM
+cano.SLDPRT  
+conector_1.SLDPRT  
+efetuador.SLDPRT  
+elo.SLDPRT  
+eloelo.SLDPRT  
+base.SLDPRT  
+Mont1.SLDASM  
 
 /resultados  
 cinemática direta até a posição [20° 20° 0.4].jpeg  
